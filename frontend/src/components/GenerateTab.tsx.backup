@@ -1,0 +1,10 @@
+# ... (rest of the file remains the same)
+
+const handleGreeting = async () => {
+    try {
+        const response = await axios.post(`${API_BASE_URL}/api/greeting`);
+        setGreeting(response.data.greeting);
+    } catch (err: any) {
+        setError(`Error: ${err.response?.data?.detail || err.message}`);
+    }
+};
