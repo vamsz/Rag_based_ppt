@@ -89,5 +89,4 @@ Visit `http://localhost:3000`. The UI assumes the backend is on `http://localhos
 - Windows helpers: run `start-backend.bat` and `start-frontend.bat` from the repo root.
 - Lint frontend: `cd frontend && npm run lint`.
 
-## License
-MIT - use freely for personal or commercial projects.
+
